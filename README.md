@@ -57,3 +57,29 @@ git commit -m ".gitignore updated"`
 
 ### Revert Local Commit:
 `git reset HEAD~1`
+
+### Git global setup
+`git config --global user.name "anshulriyal00@gmail.com"` 
+`git config --global user.email "anshulriyal00@gmail.com"`
+
+### To check remote:
+`Git remote -v`
+OUTPUT:
+
+`origin	https://github.com/AnshulRiyal/developer_baby.git (fetch)`
+`origin	https://github.com/AnshulRiyal/developer_baby.git (push)`
+
+### To remane remote origin URL:
+`git remote set-url origin https://github.com/AnshulRiyal/developer_babySteps.git`
+OUTPUT:
+
+`origin	https://github.com/AnshulRiyal/developer_babySteps.git (fetch)`
+`origin	https://github.com/AnshulRiyal/developer_babySteps.git (push)`
+
+### To remove git remote:
+`git remote remove <name>` => Where `name` is `origin` in above output. 
+
+### Remove Git tracking from a project:
+Open a terminal and navigate to the directory of your project, i.e. - cd path_to_your_project.
+Run this command:
+`rm -rf .git*`
