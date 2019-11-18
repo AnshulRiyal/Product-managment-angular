@@ -1,59 +1,59 @@
-# Things Every Developer Must Know:
+# <p align="center">Things Every Developer Must Know:</p>
 ## Github useful commands
 
 ### Clone/Download a repo: 
-git clone <repo-https-url>
+`git clone <repo-https-url>`
 
 ### Clone single branch only:
-git clone <repo-url> --branch <branch-name> --single-branch
+`git clone <repo-url> --branch <branch-name> --single-branch`
 
 ### See local changes: 
-git status
+`git status`
 
 ### Add changed files: 
-git add <filename1> <filename2> <filename3>
+`git add <filename1> <filename2> <filename3>`
 
 ### Add all changed files: 
-git add .
+`git add .`
 
 ### Commit changes: 
-git commit -m “<explain your commit>”
+`git commit -m “<explain your commit>”`
 
 ### Push local changes: 
-git push origin <branch_name>
+`git push origin <branch_name>`
 
 ### Pull server changes: 
-git pull origin <branch_name>
+`git pull origin <branch_name>`
 
 ### Get new branches and codes:
-git fetch
+`git fetch`
 
 ### Create new branch:
-git branch <branch_name>
+`git branch <branch_name>`
 
 
 ### Create new branch with current changes:
-git checkout -b <branch_name>
+`git checkout -b <branch_name>`
 
 ### Switch between branches: 
-git checkout <new_branch_name>
+`git checkout <new_branch_name>`
 
 ### Switch to any commit:
-git reset --hard <commit-number>
+`git reset --hard <commit-number>`
 
 ### Remove untracked files:
-git clean -f -d
+`git clean -f -d`
 
 ### Reset .gitignore file changes:
-git rm -r --cached .
+`git rm -r --cached .
 git add .
-git commit -m ".gitignore updated"
+git commit -m ".gitignore updated"`
 
 ### Remove all local branches that are not on remote
-git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d
+`git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d`
 
 ### Commit deleted files only
-git add -u
+`git add -u`
 
 ### Revert Local Commit:
-git reset HEAD~1
+`git reset HEAD~1`
