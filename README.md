@@ -37,44 +37,6 @@
 ### Switch between branches: 
 `git checkout <new_branch_name>`
 
-
-## Linux Commands:
-
-### List all files in a long listing (detailed) format
-`ls -al`
-
-### Display the present working directory
-`pwd`
-
-### Create a directory
-`mkdir directory`
-
-### Remove (delete) file
-`rm file`
-
-### Remove the directory and its contents recursively
-`rm -r directory`
-
-### Force removal of file without prompting for confirmation
-`rm -f file`
-
-### Forcefully remove directory recursively
-`rm -rf directory`
-
-### Copy file1 to file2
-`cp file1 file2`
-
-### Copy source_directory recursively to destination. If destination exists, copy source_directory into destination, otherwise create destination with the contents of source_directory.
-`cp -r source_directory destination`
-
-### Rename or move file1 to file2. If file2 is an existing directory, move file1 into directory file2
-`mv file1 file2`
-
-### Create symbolic link to linkname
-`ln -s /path/to/file linkname`
-
-### View the contents of file
-`cat file`
 ### Switch to any commit:
 `git reset --hard <commit-number>`
 
@@ -120,3 +82,41 @@ OUTPUT:
 Open a terminal and navigate to the directory of your project, i.e. - cd path_to_your_project.
 Run this command:
 `rm -rf .git*`
+
+## Linux Commands:
+
+### List all files in a long listing (detailed) format
+`ls -al`
+
+### Display the present working directory
+`pwd`
+
+### Create a directory
+`mkdir directory`
+
+### Remove (delete) file
+`rm file`
+
+### Remove the directory and its contents recursively
+`rm -r directory`
+
+### Force removal of file without prompting for confirmation
+`rm -f file`
+
+### Forcefully remove directory recursively
+`rm -rf directory`
+
+### Copy file1 to file2
+`cp file1 file2`
+
+### Copy source_directory recursively to destination. If destination exists, copy source_directory into destination, otherwise create destination with the contents of source_directory.
+`cp -r source_directory destination`
+
+### Rename or move file1 to file2. If file2 is an existing directory, move file1 into directory file2
+`mv file1 file2`
+
+### Create symbolic link to linkname
+`ln -s /path/to/file linkname`
+
+### View the contents of file
+`cat file`
